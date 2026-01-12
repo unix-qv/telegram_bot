@@ -1,10 +1,11 @@
 import asyncio
+import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 from aiogram.filters import Command
 
 # Токен бота
-TOKEN = '8258230917:AAEMnDBaxTaitbTbQp1z_doBZJ-TPNEj778'
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN)
