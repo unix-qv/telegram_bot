@@ -11,6 +11,8 @@ if not TOKEN:
     print("ERROR: TELEGRAM_BOT_TOKEN не установлен! Добавьте переменную в Railway.")
     exit(1)
 
+print("TOKEN loaded successfully")  # Отладка
+
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
