@@ -5,7 +5,8 @@ from aiogram.types import Message
 from aiogram.filters import Command
 
 # Токен бота
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+# TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Закомментировано для теста
+TOKEN = '8258230917:AAEMnDBaxTaitbTbQp1z_doBZJ-TPNEj778'  # Временный токен для теста
 
 if not TOKEN:
     print("ERROR: TELEGRAM_BOT_TOKEN не установлен! Добавьте переменную в Railway.")
